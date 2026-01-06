@@ -4,15 +4,15 @@ import pygame
 pygame.init()
 
 # Screen size
-WIDTH = 500
-HEIGHT = 350
+WIDTH = 2000
+HEIGHT = 800
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Pygame Project")
 
 clock = pygame.time.Clock()
 
 # Colors
-BACKGROUND = (80, 160, 200)
+BACKGROUND = (20, 180, 200)
 BOX_COLOR = (240, 220, 120)
 PLAYER_COLOR = (200, 80, 80)
 
